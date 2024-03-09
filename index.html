@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="apresentacao">
+        <header class="header_img_alura"><img src="./img/logo-alura.png"></header>
+            <section class="apresentacao_conteudo">
+                <div class="apresentacao_conteudo_InpuTextBox">
+                    <textarea id="textarea-input" placeholder="Digite aqui seu texto:"></textarea>
+                </div> 
+
+                    <div class="apresentacao_conteudo_alertAndBnt">
+                        <p class="apresentacao_conteudo_ImgAndTextAlert"><img src="./img/exclamation-circle.png">Apenas letras minúsculas e sem acento.</p>
+
+                            <div class="apresentacao_conteudo_botoes">
+                                <button onclick="criptografar()" class="apresentacao_conteudo_botaoCriptografar">Criptografar</button>
+                                <button onclick="descriptografar()" class="apresentacao_conteudo_botaoDescriptografar">Descriptografar</button>
+                            </div>
+                    </div>
+            </section>    
+
+                <section class="apresentacao_conteudo_resultado">
+                    <div id="div_disappear">                      
+                        <img src="./img/img-pessoa.png">
+                        <h1>Digite um texto que você deseja criptografar ou descriptografar.</h1>
+                        <p>Nenhuma mensagem encontrada</p> 
+                    </div> 
+                </section>    
+    </main>
+        <footer></footer>
+        <script src="app.js" defer></script>
+</body>
+</html>

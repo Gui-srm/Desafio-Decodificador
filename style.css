@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background: rgb(10, 1, 51);
+}
+
+.header_img_alura {
+    padding: 40px 0 0 20px;
+}
+
+.apresentacao {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo {
+    margin: 8%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 600px;
+}
+
+#textarea-input {
+    color: white;
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    resize: none;
+    outline: 0;
+    width: 500px;
+    height: 100px;
+    padding: 3%;
+}
+
+.apresentacao_conteudo_alertAndBnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.apresentacao_conteudo_ImgAndTextAlert {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    padding: 0% 0% 2% 0%;
+    color: white;
+}
+
+.apresentacao_conteudo_botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.apresentacao_conteudo_botoes button{
+    width: 300px;
+    text-align: center;
+    border: 5px;
+    border-radius: 16px;
+    font-size: 18px;
+    color: white;
+    padding: 24px 0;
+    cursor: pointer;
+    background-color:rgb(10, 10, 107);
+}
+
+.apresentacao_conteudo_resultado {
+    margin: 8%;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+#div_disappear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: rgb(4, 4, 58);
+    width: 400px;
+    height: 600px;
+}
+
+#div_disappear h1 {
+    color: white;
+    font-size: 22px;
+    padding: 3%;
+}
+
+#div_disappear p {
+    font-size: 18px;
+    color: white;
+    padding: 3%;
+}
+
+#div_disappear img {
+    width: 350px;
+    height: 350px;
+    padding: 3%;
+}
+
+.apresentacao_conteudo_resultado_bntcopiar {
+    width: 300px;
+    text-align: center;
+    border: 5px;
+    border-radius: 16px;
+    font-size: 18px;
+    color: white;
+    padding: 24px 0;
+    cursor: pointer;
+    background-color:rgb(10, 10, 107);
+    margin: 0 0 5% 0;
+}
+
+.apresentacao_conteudo_botoes button:hover {
+    background-color: transparent;
+    transition: 0.5s all;
+}
+
+.apresentacao_conteudo_resultado_bntcopiar:hover {
+    background-color: transparent;
+    transition: 0.5s all;
+}
+
+.textarea-output {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    resize: none;
+    outline: 0;
+    padding: 5%
+}
