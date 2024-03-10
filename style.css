@@ -69,7 +69,6 @@ body {
 
 .apresentacao_conteudo_botoes button{
     width: 300px;
-    text-align: center;
     border: 5px;
     border-radius: 16px;
     font-size: 18px;
@@ -118,7 +117,6 @@ body {
 
 .apresentacao_conteudo_resultado_bntcopiar {
     width: 300px;
-    text-align: center;
     border: 5px;
     border-radius: 16px;
     font-size: 18px;
@@ -151,4 +149,42 @@ body {
     resize: none;
     outline: 0;
     padding: 5%
+}
+
+.conteudo_rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.h1_rodape {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 0 5px;
+}
+
+.div_apresentacao_conteudo_rodape_redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape_redes {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 0 1% 0 1%;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.rodape_redes:hover {
+    background-color: rgb(10, 10, 107);
+    transition: 0.5s all;
 }

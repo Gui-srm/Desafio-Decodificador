@@ -9,14 +9,14 @@
 </head>
 <body>
     <main class="apresentacao">
-        <header class="header_img_alura"><img src="./img/logo-alura.png"></header>
+        <header class="header_img_alura"><img src="./assets/logo-alura.png"></header>
             <section class="apresentacao_conteudo">
                 <div class="apresentacao_conteudo_InpuTextBox">
                     <textarea id="textarea-input" placeholder="Digite aqui seu texto:"></textarea>
                 </div> 
 
                     <div class="apresentacao_conteudo_alertAndBnt">
-                        <p class="apresentacao_conteudo_ImgAndTextAlert"><img src="./img/exclamation-circle.png">Apenas letras minúsculas e sem acento.</p>
+                        <p class="apresentacao_conteudo_ImgAndTextAlert"><img src="./assets/exclamation-circle.png">Apenas letras minúsculas e sem acento.</p>
 
                             <div class="apresentacao_conteudo_botoes">
                                 <button onclick="criptografar()" class="apresentacao_conteudo_botaoCriptografar">Criptografar</button>
@@ -27,13 +27,24 @@
 
                 <section class="apresentacao_conteudo_resultado">
                     <div id="div_disappear">                      
-                        <img src="./img/img-pessoa.png">
+                        <img src="./assets/img-pessoa.png">
                         <h1>Digite um texto que você deseja criptografar ou descriptografar.</h1>
                         <p>Nenhuma mensagem encontrada</p> 
                     </div> 
                 </section>    
     </main>
-        <footer></footer>
+        <footer class="conteudo_rodape">
+            <h1 class="h1_rodape">Desenvolvido por: Guilherme Souza</h1>
+            <div class="div_apresentacao_conteudo_rodape_redes">
+                <a class='rodape_redes' href="https://linkedin.com/in/guisouza0992">
+                    <img src="./assets/linkedin.png">
+                    LinkedIn</a>
+                <a class='rodape_redes' href="https://github.com/Gui-srm">
+                    <img src="./assets/github.png">
+                    Github</a>
+    
+            </div>
+        </footer>
         <script src="app.js" defer></script>
 </body>
 </html>
